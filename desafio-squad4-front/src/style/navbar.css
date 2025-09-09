@@ -17,6 +17,10 @@
   cursor: pointer;
 }
 
+#reservaBtn:hover {
+  background-color: #e0d4b3; /* cor ao passar o mouse */
+}
+
 #navbarContainer {
   display: flex;
   justify-content: space-between;
@@ -45,3 +49,4 @@
   border-radius: 50px;
   font-weight: bold;
 }
+
