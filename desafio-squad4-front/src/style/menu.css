@@ -1,0 +1,34 @@
+#menuSection {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.menuContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+}
+
+.menuTitle {
+    color: #A39671;
+    font-weight: 500;
+}
+
+.menuItems {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #3F2305;
+    font-family: "DM Sans", sans-serif;
+}
+
+.menuBar {
+    margin: 40px 0px;
+    width: 100%;
+    height: 2px;
+    background-color: #DED7C2;
+}
