@@ -125,7 +125,7 @@
 
   <footer>
     <div style="display: flex;">
-      <img src="public/footer_restaurante.svg" alt="">
+      <img src="public/footer_restaurante.svg" id="footer_restaurante" width="640px" height="720px" alt="">
       <div style="display: flex; flex-direction: column;">
         <form>
           <div class="sectionTitleContainer">
@@ -137,12 +137,14 @@
             <option value="Serviço">Serviço</option>
             <option value="Lorem ipsum">Lorem ipsum</option>
           </select>
-          <input type="text" name="nome" id="formNome" placeholder="Seu nome">
-          <input type="text" name="email" id="formEmail" placeholder="Email">
+          <div class="formrow">
+            <input type="text" name="nome" id="formNome" placeholder="Seu nome">
+            <input type="text" name="email" id="formEmail" placeholder="Email">
+          </div>
           <input type="text" name="descricao" id="formDescricao" placeholder="Descrição (opcional)">
-          <button>Enviar</button>
+          <button id="submit">Enviar</button>
         </form>
-        <img src="public/footer_mapa.svg" alt="">
+        <img src="public/footer_mapa.svg" width="435" height="254" alt="">
       </div>
     </div>
 
