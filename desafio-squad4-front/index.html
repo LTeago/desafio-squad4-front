@@ -34,6 +34,7 @@
   </div>
 
   <div id="section2">
+
     <div class="sectionTitleContainer">
       <h1 class="sectionTitle">Menu Executivo</h1>
       <div class="sectionTitleBar"></div>
@@ -74,12 +75,116 @@
     </div>
 
     <div class="displayContainer">
-      <img id="steak" src="public/steak_tartare.svg" alt="Steak Tartare" width="500">
-      <div style="display: flex; flex-direction: column;">
+      <img id="displayImg" src="public/steak_tartare.svg" alt="Steak Tartare" width="500">
+      <div class="displaySection">
         <h1 class="sectionTitle">Criações Exclusivas</h1>
+        <h5 class="displaySubtitle">Cozinha Contemporânea Brasileira</h5>
+        <p class="displayText">
+          Entre as entradas, os famosos Steak tartare de mignon com ovo de codorna frito e batata chips e a Polenta
+          cremosa com linguiça com requeijão ao molho de tomate estão entre os mais pedidos.
+        </p>
+        <button id="verMenuBtn">VER MENU</button>
       </div>
     </div>
+
+    <div class="servicosContainer">
+      <div class="sectionTitleContainer">
+        <h1 class="sectionTitle">Serviços</h1>
+        <div class="sectionTitleBar"></div>
+      </div>
+
+      <div class="cardContainer">
+        <div class="card">
+          <img src="public/servicos_1.svg">
+          <h3>PERSONAL CHEF</h3>
+          <span>Desde jantares íntimos até celebrações especiais, nosso personal chef proporcionará uma experiência
+            culinária exclusiva e sob medida.</span>
+          <a>Contratar agora</a>
+        </div>
+
+        <div class="card">
+          <img src="public/servicos_2.svg">
+          <h3>BUFFET</h3>
+          <span>De acordo com suas preferências, você terá uma experiência gastronômica que surpreenderá e encantará
+            seus convidados.</span>
+          <a>Contratar agora</a>
+        </div>
+
+        <div class="card">
+          <img src="public/servicos_3.svg">
+          <h3>JANTAR TEMÁTICO</h3>
+          <span>Uma experiência gastronômica temática, cuidadosamente personalizada de acordo com suas
+            preferências.</span>
+          <a>Contratar agora</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="menuBar"></div>
   </div>
+
+  <footer>
+    <div style="display: flex;">
+      <img src="public/footer_restaurante.svg" alt="">
+      <div style="display: flex; flex-direction: column;">
+        <form>
+          <div class="sectionTitleContainer">
+            <h1 class="sectionTitle">Entre em contato</h1>
+            <div class="sectionTitleBar"></div>
+          </div>
+
+          <select name="servico" id="formServico">
+            <option value="Serviço">Serviço</option>
+            <option value="Lorem ipsum">Lorem ipsum</option>
+          </select>
+          <input type="text" name="nome" id="formNome" placeholder="Seu nome">
+          <input type="text" name="email" id="formEmail" placeholder="Email">
+          <input type="text" name="descricao" id="formDescricao" placeholder="Descrição (opcional)">
+          <button>Enviar</button>
+        </form>
+        <img src="public/footer_mapa.svg" alt="">
+      </div>
+    </div>
+
+    <div style="display: flex;">
+      <div>
+        <img src="public/footer_logo.svg">
+      </div>
+
+      <div style="display: flex; flex-direction: column;">
+        <h3>Contato</h3>
+
+        <a href="">+55 21 99999-9999</a>
+        <a href="">contato@lobocozinha.com</a>
+
+        <span>Rua ali perto, 89 - Barra da Tijuca</span>
+        <span>Rio de Janeiro - RJ</span>
+
+        <div>
+          <button class="socialMediaBtn">
+            <img src="public/logo_instagram.svg">
+          </button>
+          <button class="socialMediaBtn">
+            <img src="public/logo_facebook.svg">
+          </button>
+          <button class="socialMediaBtn">
+            <img src="public/logo_youtube.svg">
+          </button>
+        </div>
+      </div>
+
+      <div style="display: flex; flex-direction: column;">
+        <h3>Informações</h3>
+
+        <a href="">Reservas</a>
+        <a href="">Personal Chef</a>
+        <a href="">Buffet Personalizado</a>
+        <a href="">Jantar temático</a>
+      </div>
+
+    </div>
+    <span>EJECT © Alguns Direitos Reservados</span>
+  </footer>
 
   <script type="module" src="/src/main.js"></script>
 </body>

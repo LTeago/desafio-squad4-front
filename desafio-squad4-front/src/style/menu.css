@@ -1,16 +1,17 @@
-#menuSection {
+#menuSection { /* Consertar distância entre contêineres */
     display: flex;
     flex-direction: row;
-    width: 100%;
     justify-content: space-between;
+    column-gap: 0px;
+    width: 100%;
+    margin-bottom: 80px;
 }
 
 .menuContainer {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     gap: 20px;
-    width: 100%;
+    width: calc(50% - 34px);
 }
 
 .menuTitle {
@@ -24,6 +25,7 @@
     gap: 20px;
     color: #3F2305;
     font-family: "DM Sans", sans-serif;
+    font-weight: 500;
 }
 
 .menuBar {
