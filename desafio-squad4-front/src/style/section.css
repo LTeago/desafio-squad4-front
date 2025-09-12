@@ -1,0 +1,31 @@
+#section2 {
+    padding: 152px;
+    background-color: white;
+}
+
+.sectionTitleContainer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+}
+
+.sectionTitle {
+    display: block;
+    text-align: left;
+    color: #3F2305;
+    font-size: 38px;
+}
+
+.sectionTitleBar {
+    width: 72px;
+    height: 6px;
+    background-color: #3F2305;
+}
+
+.sectionSubtitle {
+    margin-top: 10px;
+    color: #3F2305;
+    font-size: 12px;
+    line-height: normal;
+    font-weight: 500;
+}
