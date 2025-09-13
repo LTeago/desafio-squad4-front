@@ -1,24 +1,20 @@
 .cardContainer {
     display: flex;
-    justify-content: center;
-    align-items: stretch; 
+    align-items: stretch;
     gap: 28px;
 }
 
 .card {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
     width: 320px;
-    height: 100%; 
     gap: 20px;
     color: black;
     text-align: center;
     font-family: "Montserrat", sans-serif;
     border: 2px solid #DED7C2;
     border-radius: 16px;
-    padding: 0; /* Remove any default padding */
 }
 
 .card img {
@@ -38,7 +34,8 @@
 .card span {
     font-weight: normal;
     font-size: 14px;
-    padding: 0px 64px;
+    padding: 0px 32px;
+    margin-bottom: 20px;
 }
 
 .card a {
@@ -47,4 +44,11 @@
     font-size: 18px;
     text-decoration-line: underline;
     cursor: pointer;
+}
+
+.cardContent {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
 }
