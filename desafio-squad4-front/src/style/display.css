@@ -1,14 +1,16 @@
 .displayContainer {
     display: flex;
     justify-content: start;
-    align-items: center;
+    align-items: stretch;
     gap: 64px;
     width: 100%;
+    margin: 96px 0px;
 }
 
 .displaySection {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 .displaySubtitle {
@@ -29,4 +31,8 @@
   font-weight: bold;
   cursor: pointer;
   width: fit-content;
+}
+
+#verMenuBtn:hover {
+  background-color: #e0d4b3; /* cor ao passar o mouse */
 }
