@@ -1,4 +1,5 @@
 import "./style/navbar.css";
+import "./style/dropdown.css";
 import "./style/grid.css";
 import "./style/style.css";
 import "./style/section.css";
@@ -6,3 +7,19 @@ import "./style/menu.css";
 import "./style/display.css";
 import "./style/servicos.css";
 import "./style/footer.css";
+
+const dropdown = document.getElementById('dropdown-container');
+const dropdownToggleBtn = document.getElementById('dropdown-toggle-btn');
+const dropdownCloseBtn = document.getElementById('dropdown-close-btn');
+
+function toggleElement(element) {
+    element.classList.toggle('on');
+}
+
+dropdownToggleBtn.addEventListener('click', () => {
+    toggleElement(dropdown);
+});
+
+dropdownCloseBtn.addEventListener('click', () => {
+    toggleElement(dropdown);
+});

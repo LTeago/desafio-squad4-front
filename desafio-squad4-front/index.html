@@ -9,9 +9,34 @@
 </head>
 
 <body>
+
+  <div id="dropdown-container" class="on">
+    <div class="dropdown-content">
+      <div class="dropdown-inner">
+        <div>
+          <img src="public/logo_dropdown.svg">
+          <div class="menuBar" style="margin: 0;"></div>
+        </div>
+      </div>
+      <button id="dropdown-close-btn">
+        <img src="public/x.svg">
+      </button>
+    </div>
+    <div class="dropdown-menu">
+      <a>Menu Executivo</a>
+      <a>Contratar Agora</a>
+      <a>Sobre Nós</a>
+      <a>Cardápio</a>
+      <a>Serviços</a>
+    </div>
+  </div>
+
   <div id="navbar">
     <div id="navbarContainer">
-      <img id="logo" src="/logo.svg" alt="Logo">
+      <button id="dropdown-toggle-btn">
+        <img src="public/navbar_toggle.svg">
+      </button>
+      <img id="logo" src="/logo.svg">
       <div id="navbarBtnContainer">
         <button class="navbarBtn">Home</button>
         <button class="navbarBtn">Sobre nós</button>
@@ -65,8 +90,8 @@
           <div class="grid-item text-item" id="grid-item-6">
             <h1>jantar temático</h1>
             <span>
-              Uma experiência gastronômica temática, 
-              cuidadosamente personalizada de acordo com 
+              Uma experiência gastronômica temática,
+              cuidadosamente personalizada de acordo com
               suas preferências.
             </span>
             <a href="">ver mais</a>
@@ -74,8 +99,8 @@
           <div class="grid-item text-item" id="grid-item-7">
             <h1>buffet</h1>
             <span>
-              De acordo com suas preferências, voce terá uma 
-              experiência gastronômica que surpreenderá e 
+              De acordo com suas preferências, voce terá uma
+              experiência gastronômica que surpreenderá e
               encantará seus convidados.
             </span>
             <a href="">ver mais</a>
