@@ -29,7 +29,8 @@ footer a {
   display: block;      /* remove espaço extra embaixo da img */
   width: 640px;
   height: 720px;
-  object-fit: cover;   /* opcional: ajusta o preenchimento */
+  object-fit: cover;
+  margin-right: 130px;
 }
 
 form {
@@ -38,7 +39,9 @@ form {
   gap: 20px;              
   width: 100%;
   max-width: 400px;       
-  margin: 0 auto;         
+  margin: 0 auto;
+  margin-bottom: 50px;  
+  margin-top: 50px;  
 }
 
 form input,
@@ -53,9 +56,6 @@ form textarea {
   transition: border-color 0.2s, box-shadow 0.2s;
 }
 
-#form_nome{
-
-}
 
 .formrow {
   display: flex;
@@ -75,6 +75,9 @@ form textarea {
     width: fit-content; /* faz o botão ficar só do tamanho do texto */
   cursor: pointer;
   font-weight: bold;
+}
 
+#submit:hover{
+    background-color: #8f5517;
 }
 
