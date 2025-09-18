@@ -10,10 +10,10 @@
     transform: scale(1.1);
     transition: opacity 0.3s ease, transform 0.3s ease;
     z-index: 1;
-    
+
 }
 
 .modal-backdrop.on {
-  opacity: 1;
-  transform: scale(1);
+    opacity: 1;
+    transform: scale(1);
 }

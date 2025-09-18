@@ -1,4 +1,5 @@
-#menuSection { /* Consertar distância entre contêineres */
+#menu-section {
+    /* Consertar distância entre contêineres */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -6,19 +7,19 @@
     width: 100%;
 }
 
-.menuContainer {
+.menu-container {
     display: flex;
     flex-direction: column;
     gap: 20px;
     width: calc(50% - 34px);
 }
 
-.menuTitle {
+.menu-title {
     color: #A39671;
     font-weight: 500;
 }
 
-.menuItems {
+.menu-items {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -27,7 +28,7 @@
     font-weight: 500;
 }
 
-.menuBar {
+.menu-bar {
     margin: 40px 0px;
     width: 100%;
     height: 2px;

@@ -10,7 +10,8 @@
 #dropdown-container {
     display: none;
     width: 100%;
-    height: auto; /* A ideia era cobrir uns 40% da página */
+    height: auto;
+    /* A ideia era cobrir uns 40% da página */
     padding: 25px;
     position: absolute;
     top: -400px;
