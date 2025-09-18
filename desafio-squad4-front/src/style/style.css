@@ -40,7 +40,7 @@ body {
 }
 
 .svg-wrapper {
-  display: block;
+  display: flex;
   width: 100%;
   position: relative;
 }

@@ -8,6 +8,7 @@ import "./style/modal.css";
 import "./style/display.css";
 import "./style/servicos.css";
 import "./style/footer.css";
+import "./style/carrossel.css";
 
 const dropdown = document.getElementById('dropdown-container');
 const dropdownToggleBtn = document.getElementById('dropdown-toggle-btn');
