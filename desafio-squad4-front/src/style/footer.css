@@ -13,7 +13,7 @@ footer a {
     text-decoration: none;
 }
 
-.infoContainer {
+.info-container {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -21,63 +21,64 @@ footer a {
     gap: 28px;
 }
 
-#footerLogo {
+#footer-logo {
     max-width: fit-content;
 }
 
 #footer_restaurante {
-  display: block;      /* remove espaço extra embaixo da img */
-  width: 640px;
-  height: 720px;
-  object-fit: cover;
-  margin-right: 130px;
+    display: block;
+    /* remove espaço extra embaixo da img */
+    width: 640px;
+    height: 720px;
+    object-fit: cover;
+    margin-right: 130px;
 }
 
 form {
-  display: flex;
-  flex-direction: column; 
-  gap: 20px;              
-  width: 100%;
-  max-width: 400px;       
-  margin: 0 auto;
-  margin-bottom: 50px;  
-  margin-top: 50px;  
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 form input,
 form select,
 form textarea {
-  padding: 7px 10px;
-  border: 2px solid #3F2305;
-  border-radius: 5px;
-  font-size: 1rem;
-  font-family: inherit;
-  background-color: #DED7C2;
-  transition: border-color 0.2s, box-shadow 0.2s;
+    padding: 7px 10px;
+    border: 2px solid #3F2305;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: inherit;
+    background-color: #DED7C2;
+    transition: border-color 0.2s, box-shadow 0.2s;
 }
 
 
 .formrow {
-  display: flex;
-  gap: 12px;
+    display: flex;
+    gap: 12px;
 }
 
 .formrow input {
-  flex: 1; 
-  min-width: 0; 
+    flex: 1;
+    min-width: 0;
 }
 
-#submit{
+#submit {
     background-color: #3F2305;
-    color:#FFFF;
+    color: #FFFF;
     padding: 10px 15px;
     border-radius: 8px;
-    width: fit-content; /* faz o botão ficar só do tamanho do texto */
-  cursor: pointer;
-  font-weight: bold;
+    width: fit-content;
+    /* faz o botão ficar só do tamanho do texto */
+    cursor: pointer;
+    font-weight: bold;
 }
 
-#submit:hover{
+#submit:hover {
     background-color: #8f5517;
 }
-
