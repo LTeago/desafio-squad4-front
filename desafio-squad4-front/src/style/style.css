@@ -5,8 +5,7 @@
   line-height: 1.5;
   font-weight: 400;
 
-  color: white;
-  background-color: white;
+
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -64,6 +63,7 @@ body {
   flex-direction: column;
   padding: 100px 150px 30px;
   align-items: flex-start;
+  color: white;
 }
 
 #reservaBtn2 {
@@ -118,6 +118,17 @@ body {
   height: 6px;
   background-color: white;
 }
+.svg-title2 {
+  display: block;
+  text-align: left;
+  font-size: 38px;
+}
+
+.svg-title-bar2 {
+  width: 72px;
+  height: 6px;
+  background-color: #643705;
+}
 
 .svg-subtitle {
   margin-top: 10px;
@@ -126,3 +137,4 @@ body {
   line-height: normal;
   font-weight: 500;
 }
+

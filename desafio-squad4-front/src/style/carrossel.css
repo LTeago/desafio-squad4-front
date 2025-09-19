@@ -81,6 +81,6 @@
 }
 
 .card-link:hover {
-  color: #FFFFFF;           /* muda cor quando passar mouse */
-  text-decoration: underline; /* opcional: underline no hover */
+  color: #FFFFFF;           
+  text-decoration: underline; 
 }
