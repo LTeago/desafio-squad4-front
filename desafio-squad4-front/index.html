@@ -9,65 +9,132 @@
 </head>
 
 <body>
-  <div id="navbar">
-    <div id="navbarContainer">
-      <img id="logo" src="/logo.svg" alt="Logo">
-      <div id="navbarBtnContainer">
-        <button class="navbarBtn">Home</button>
-        <button class="navbarBtn" onclick="window.location.href='src/cardapio.html'">Cardápio</button>
-        <button class="navbarBtn" onclick="window.location.href='src/sobre.html'">Sobre nós</button>
 
+  <div class="modal-backdrop" id="modal-backdrop"></div>
+
+  <div id="dropdown-container">
+    <div class="dropdown-content">
+      <div class="dropdown-inner">
+        <div>
+          <img class="dropdown-logo" src="public/logo_dropdown.svg">
+          <div class="menu-bar" style="margin: 0;"></div>
+        </div>
+>>>>>>> bbf980af5dde53e2c2b336c7362a9e09c4d720b0
       </div>
-      <button id="reservaBtn">RESERVAR AGORA</button>
+      <button id="dropdown-close-btn">
+        <img src="public/x.svg">
+      </button>
+    </div>
+    <div class="dropdown-menu">
+      <a id="menu-executivo-btn">Menu Executivo</a>
+      <a id="contratar-btn">Contratar Agora</a>
+      <a id="sobre-nos-btn">Sobre Nós</a>
+      <a id="cardapio-btn">Cardápio</a>
+      <a id="servicos-btn">Serviços</a>
+    </div>
+  </div>
+
+  <div class="modal" id="menu-executivo">
+    <div class="modal-container">
+      <div>
+        <h1>Menu Executivo</h1>
+        <div class="section-title-bar"></div>
+        <h4 class="menu-executivo subtitle">01 Entrada + 01 Prato principal + 01 Sobremesa</h4>
+      </div>
+      <button class="modal-close-btn" id="menu-executivo-close-btn">
+        <img src="public/x_dark.svg">
+      </button>
+    </div>
+    <div>
+      <h3>Entrada</h3>
+      <div class="menu-bar dotted"></div>
+      <div class="items-container">
+        <span>BURRATA ARTESANAL COM PESTO DE RÚCULA E TOMATES CÍTRICOS</span>
+        <span>POLENTA CREMOSA COM LINGUIÇA COM REQUEIJÃO AO MOLHO DE TOMATE</span>
+        <span>STEAK TARTARE DE MIGNON COM OVO DE CODORNA FRITO E BATATA FRITA</span>
+      </div>
+
+      <h3>Prato Principal</h3>
+      <div class="menu-bar dotted"></div>
+      <div class="items-container">
+        <span>CUPIM NA MANTEIGA DE GARRAFA, MANDIOCA COZIDA E FAROFA DE BANANA</span>
+        <span>RISOTO DE POLVO COM AÇAFRÃO, PARMESÃO, TOMATE CEREJA E DILL</span>
+        <span>MEDALHÃO DE MIGNON COM RISOTO DE BRIE, ERVAS E MOLHO ROTI</span>
+      </div>
+
+      <h3>Sobremesa</h3>
+      <div class="menu-bar dotted"></div>
+      <div class="items-container">
+        <span>PUDIM DE CUMARU COM CALDA DE FRUTAS VERMELHAS E SEMENTES DE PAPOULA</span>
+        <span>MOUSSE DE CHOCOLATE BELGA COM CARAMELO E SAL MALDON</span>
+        <span>BRIGADEIRO DE MARACUJÁ, FRUTAS VERMELHAS E SORBET DE MANGA</span>
+      </div>
+    </div>
+  </div>
+
+  <div id="navbar">
+    <div id="navbar-container">
+      <button id="dropdown-toggle-btn">
+        <img src="public/navbar_toggle.svg">
+      </button>
+      <img id="logo" src="/logo.svg">
+      <div id="navbar-btn-container">
+        <button class="navbar-btn">Home</button>
+        <button class="navbar-btn">Cardápio</button>
+        <button class="navbar-btn">Sobre nós</button>
+      </div>
+      <button id="reserva-btn">RESERVAR AGORA</button>
     </div>
   </div>
 
   <div class="section">
     <div class="container">
-      <h3 id="nomeChef">Chef. Benjamin Matos</h3>
+      <h3 id="nome-chef">Chef. Benjamin Matos</h3>
       <h1 id="title">Muito mais que uma
         <br>
         Experiência Gastronômica
       </h1>
-      <button id="reservaBtn2">RESERVAR AGORA</button>
+      <button id="reserva-btn-2">RESERVAR AGORA</button>
     </div>
     <div class="svg-wrapper">
       <img src="Vector.svg" class="bg-svg" width="200" style="display: block;">
-      
+
       <div class="carousel-container">
         <div class="carousel">
-  <div class="carousel-track">
-    <div class="item">
-      <img src="baunilha.jpeg" alt="Sobert de Baunilha">
-      <span class="caption">Sorbet de Baunilha</span>
-      <a href="" class="card-link">Ver mais</a>
-    </div>
-    <div class="item">
-      <img src="baunilha.jpeg" alt="Tempurá de Pimenta">
-      <span class="caption">Tempurá de Pimenta</span>
-      <a href="" class="card-link">Ver mais</a>
-    </div>
-    <div class="item">
-      <img src="baunilha.jpeg" alt="alada Mata Atlântica">
-      <span class="caption">Salada Mata Atlântica</span>
-      <a href="" class="card-link">Ver mais</a>
-    </div>
-    <div class="item">
-      <img src="baunilha.jpeg" alt="Penne à lá Kombutcha">
-      <span class="caption">Penne à lá Kombutcha</span>
-      <a href="" class="card-link">Ver mais</a>
-    </div>
-    <div class="item">
-      <img src="baunilha.jpeg" alt="Sorbet de Manga">
-      <span class="caption">Sorbet de Manga</span>
-      <a href="" class="card-link">Ver mais</a>
-    </div>
-  </div>
-  <button class="nav prev">&lt;</button>
-  <button class="nav next">&gt;</button>
-</div>
-  
-      
+          <div class="carousel-track">
+            <div class="item">
+              <img src="baunilha.jpeg" alt="Sobert de Baunilha">
+              <span class="caption">Sorbet de Baunilha</span>
+              <a href="" class="card-link">Ver mais</a>
+            </div>
+            <div class="item">
+              <img src="baunilha.jpeg" alt="Tempurá de Pimenta">
+              <span class="caption">Tempurá de Pimenta</span>
+              <a href="" class="card-link">Ver mais</a>
+            </div>
+            <div class="item">
+              <img src="baunilha.jpeg" alt="alada Mata Atlântica">
+              <span class="caption">Salada Mata Atlântica</span>
+              <a href="" class="card-link">Ver mais</a>
+            </div>
+            <div class="item">
+              <img src="baunilha.jpeg" alt="Penne à lá Kombutcha">
+              <span class="caption">Penne à lá Kombutcha</span>
+              <a href="" class="card-link">Ver mais</a>
+            </div>
+            <div class="item">
+              <img src="baunilha.jpeg" alt="Sorbet de Manga">
+              <span class="caption">Sorbet de Manga</span>
+              <a href="" class="card-link">Ver mais</a>
+            </div>
+          </div>
+          <button class="nav prev">&lt;</button>
+          <button class="nav next">&gt;</button>
+        </div>
+
+        <div class="svg-section">
+
+        </div>
         <div class="svg-title-container">
           <h1 class="svg-title">Especialidades</h1>
           <div class="svg-title-bar"></div>
@@ -101,8 +168,8 @@
           <div class="grid-item text-item" id="grid-item-6">
             <h1>jantar temático</h1>
             <span>
-              Uma experiência gastronômica temática, 
-              cuidadosamente personalizada de acordo com 
+              Uma experiência gastronômica temática,
+              cuidadosamente personalizada de acordo com
               suas preferências.
             </span>
             <a href="">ver mais</a>
@@ -110,8 +177,8 @@
           <div class="grid-item text-item" id="grid-item-7">
             <h1>buffet</h1>
             <span>
-              De acordo com suas preferências, voce terá uma 
-              experiência gastronômica que surpreenderá e 
+              De acordo com suas preferências, voce terá uma
+              experiência gastronômica que surpreenderá e
               encantará seus convidados.
             </span>
             <a href="">ver mais</a>
@@ -125,25 +192,25 @@
   </div>
 
   <div id="section2">
-    <div class="sectionTitleContainer">
-      <h1 class="sectionTitle">Menu Executivo</h1>
-      <div class="sectionTitleBar"></div>
-      <h6 class="sectionSubtitle">01 Entrada + 01 Prato principal + 01 Sobremesa</h6>
+    <div class="section-title-container">
+      <h1 class="section-title">Menu Executivo</h1>
+      <div class="section-title-bar"></div>
+      <h6 class="section-subtitle">01 Entrada + 01 Prato principal + 01 Sobremesa</h6>
     </div>
 
-    <div id="menuSection">
-      <div class="menuContainer">
-        <h2 class="menuTitle">Entrada</h2>
-        <div class="menuItems">
+    <div id="menu-section">
+      <div class="menu-container">
+        <h2 class="menu-title">Entrada</h2>
+        <div class="menu-items">
           <span>BURRATA ARTESANAL COM PESTO DE RÚCULA E TOMATES CÍTRICOS</span>
           <span>POLENTA CREMOSA COM LINGUIÇA COM REQUEIJÃO AO MOLHO DE TOMATE</span>
           <span>STEAK TARTARE DE MIGNON COM OVO DE CODORNA FRITO E BATATA FRITA</span>
         </div>
       </div>
 
-      <div class="menuContainer">
-        <h2 class="menuTitle">Prato principal</h2>
-        <div class="menuItems">
+      <div class="menu-container">
+        <h2 class="menu-title">Prato principal</h2>
+        <div class="menu-items">
           <span>CUPIM NA MANTEIGA DE GARRAFA, MANDIOCA COZIDA E FAROFA DE BANANA</span>
           <span>RISOTO DE POLVO COM AÇAFRÃO, PARMESÃO, TOMATE CEREJA E DILL</span>
           <span>MEDALHÃO DE MIGNON COM RISOTO DE BRIE, ERVAS E MOLHO ROTI</span>
@@ -151,12 +218,12 @@
       </div>
     </div>
 
-    <div class="menuBar"></div>
+    <div class="menu-bar"></div>
 
-    <div id="menuSection">
-      <div class="menuContainer">
-        <h2 class="menuTitle">Sobremesa</h2>
-        <div class="menuItems">
+    <div id="menu-section">
+      <div class="menu-container">
+        <h2 class="menu-title">Sobremesa</h2>
+        <div class="menu-items">
           <span>PUDIM DE CUMARU COM CALDA DE FRUTAS VERMELHAS E SEMENTES DE PAPOULA</span>
           <span>MOUSSE DE CHOCOLATE BELGA COM CARAMELO E SAL MALDON</span>
           <span>BRIGADEIRO DE MARACUJÁ, FRUTAS VERMELHAS E SORBET DE MANGA</span>
@@ -164,29 +231,29 @@
       </div>
     </div>
 
-    <div class="displayContainer">
-      <img id="displayImg" src="public/steak_tartare.svg" alt="Steak Tartare" width="500">
-      <div class="displaySection">
-        <h1 class="sectionTitle">Criações Exclusivas</h1>
-        <h5 class="displaySubtitle">Cozinha Contemporânea Brasileira</h5>
-        <p class="displayText">
+    <div class="display-container">
+      <img src="public/steak_tartare.svg" alt="Steak Tartare" width="500">
+      <div class="display-section">
+        <h1 class="section-title">Criações Exclusivas</h1>
+        <h5 class="display-subtitle">Cozinha Contemporânea Brasileira</h5>
+        <p class="display-text">
           Entre as entradas, os famosos Steak tartare de mignon com ovo de codorna frito e batata chips e a Polenta
           cremosa com linguiça com requeijão ao molho de tomate estão entre os mais pedidos.
         </p>
-        <button id="verMenuBtn">VER MENU</button>
+        <button id="ver-menu-btn">VER MENU</button>
       </div>
     </div>
 
     <div class="servicosContainer">
-      <div class="sectionTitleContainer">
-        <h1 class="sectionTitle">Serviços</h1>
-        <div class="sectionTitleBar"></div>
+      <div class="section-title-container">
+        <h1 class="section-title">Serviços</h1>
+        <div class="section-title-bar"></div>
       </div>
 
-      <div class="cardContainer">
+      <div class="card-container">
         <div class="card">
           <img src="public/servicos_1.svg">
-          <div class="cardContent">
+          <div class="card-content">
             <h3>PERSONAL CHEF</h3>
             <span>Desde jantares íntimos até celebrações especiais, nosso personal chef proporcionará uma experiência
               culinária exclusiva e sob medida.</span>
@@ -196,7 +263,7 @@
 
         <div class="card">
           <img src="public/servicos_2.svg">
-          <div class="cardContent">
+          <div class="card-content">
             <h3>BUFFET</h3>
             <span>De acordo com suas preferências, você terá uma experiência gastronômica que surpreenderá e encantará
               seus convidados.</span>
@@ -206,7 +273,7 @@
 
         <div class="card">
           <img src="public/servicos_3.svg">
-          <div class="cardContent">
+          <div class="card-content">
             <h3>JANTAR TEMÁTICO</h3>
             <span>Uma experiência gastronômica temática, cuidadosamente personalizada de acordo com suas
               preferências.</span>
@@ -215,7 +282,7 @@
         </div>
       </div>
     </div>
-    <div class="menuBar"></div>
+    <div class="menu-bar"></div>
   </div>
 
   <footer>
@@ -223,9 +290,9 @@
       <img src="public/footer_restaurante.svg" alt="" id="footer_restaurante" width="640px" height="720px">
       <div style="display: flex; flex-direction: column;">
         <form>
-          <div class="sectionTitleContainer">
-            <h1 class="sectionTitle">Entre em contato</h1>
-            <div class="sectionTitleBar"></div>
+          <div class="section-title-container">
+            <h1 class="section-title">Entre em contato</h1>
+            <div class="section-title-bar"></div>
           </div>
 
           <select name="servico" id="formServico">
@@ -244,11 +311,11 @@
     </div>
 
     <div style="display: flex; justify-content: center; align-items: stretch; width: 100%;">
-      <div class="infoContainer">
-        <img id="footerLogo" src="public/footer_logo.svg">
+      <div class="info-container">
+        <img id="footer-logo" src="public/footer_logo.svg">
       </div>
 
-      <div class="infoContainer">
+      <div class="info-container">
         <h3>Contato</h3>
 
         <div style="display: flex; flex-direction: column;">
@@ -262,19 +329,19 @@
         </div>
 
         <div>
-          <button class="socialMediaBtn">
+          <button class="social-media-btn">
             <img src="public/logo_instagram.svg">
           </button>
-          <button class="socialMediaBtn">
+          <button class="social-media-btn">
             <img src="public/logo_facebook.svg">
           </button>
-          <button class="socialMediaBtn">
+          <button class="social-media-btn">
             <img src="public/logo_youtube.svg">
           </button>
         </div>
       </div>
 
-      <div class="infoContainer">
+      <div class="info-container">
         <h3>Informações</h3>
         <div style="display: flex; flex-direction: column;">
           <a href="">Reservas</a>
@@ -285,10 +352,12 @@
         <span>EJECT © Alguns Direitos Reservados</span>
       </div>
     </div>
-  </footer>
+  </footer> 
 
-  <script type="module" src="/src/main.js"></script>
-  <script type="module" src="/src/carrossel.js"></script>
+  <script type="module" src="src/script/main.js"></script>
+  <script type="module" src="src/script/modal.js"></script>
+  <script type="module" src="src/script/dropdown.js"></script>
+  <script type="module" src="src/script/carrossel.js"></script>
 </body>
 
 </html>

@@ -1,4 +1,4 @@
-.cardContainer {
+.card-container {
     display: flex;
     align-items: stretch;
     gap: 28px;
@@ -48,7 +48,7 @@
     cursor: pointer;
 }
 
-.cardContent {
+.card-content {
     display: flex;
     justify-content: space-between;
     flex-direction: column;

@@ -3,26 +3,26 @@
     background-color: white;
 }
 
-.sectionTitleContainer {
+.section-title-container {
     display: flex;
     flex-direction: column;
     margin-bottom: 24px;
 }
 
-.sectionTitle {
+.section-title {
     display: block;
     text-align: left;
     color: #3F2305;
-    font-size: 38px;
+    font-size: 2.375rem;
 }
 
-.sectionTitleBar {
+.section-title-bar {
     width: 72px;
     height: 6px;
     background-color: #3F2305;
 }
 
-.sectionSubtitle {
+.section-subtitle {
     margin-top: 10px;
     color: #3F2305;
     font-size: 12px;
