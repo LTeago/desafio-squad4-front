@@ -6,11 +6,8 @@
     width: 100%;
     aspect-ratio: 1;
     pointer-events: auto;
-    /* Re-enable pointer events for the grid */
     position: relative;
-    /* Ensure it's properly positioned */
-    z-index: 10;
-    /* Make sure it's above other elements */
+    z-index: 2;
 }
 
 .grid-item {

@@ -34,3 +34,11 @@
     height: 2px;
     background-color: #DED7C2;
 }
+
+.menu-bar.dotted {
+    margin: 0;
+    width: 100%;
+    height: 2px;
+    border-bottom: 2px dotted #A39671;
+    background: none;
+}
