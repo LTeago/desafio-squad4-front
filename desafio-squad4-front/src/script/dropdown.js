@@ -40,7 +40,6 @@ menuExecutivoBtn.addEventListener('click', () => {
 })
 
 menuExecutivoCloseBtn.addEventListener('click', () => {
-    e.stopPropagation();
     toggleElement(menuExecutivoModal);
 })
 

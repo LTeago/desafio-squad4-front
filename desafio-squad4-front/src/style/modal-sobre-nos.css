@@ -1,86 +1,112 @@
 #sobre-nos {
-    padding: 10vw;
+    padding: 10vw 5vw;
+    background-color: rgba(100, 55, 5, 1);
 }
 
-#sobre-nos h1 {
-    color: #3F2305;
-    font-size: 2rem;
-    line-height: 2rem;
-    margin-bottom: 0.4rem;
+#sobre-nos #logo {
+    width: 8rem;
+    height: auto;
+    margin: 0 auto;
 }
 
-#sobre-nos h4 {
-    margin-top: 0.6rem;
-    margin-bottom: 2.5rem;
-    color: #3F2305;
-    font-size: 1rem;
-    line-height: normal;
-    font-weight: 500;
+#sobre-nos .header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#sobre-nos .content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#sobre-nos .modal-bar-inline {
+    width: 14rem;
+}
+
+#sobre-nos .modal-bar {
+    margin: 0;
+    width: 7.5rem;
+}
+
+#sobre-nos .card-bar {
+    height: 1px;
+    background-color: black;
+    margin: 0;
+    width: 4.5rem;
 }
 
 #sobre-nos .card-container {
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    gap: 1.2rem;
-    margin: 1rem 0;
-}
-
-#sobre-nos .card {
+    background-color: rgba(242, 234, 211, 1);
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
     align-items: stretch;
-    gap: 0px;
-    width: 100%;
-    height: 200px; /* Fixed height for the card */
-    background-color: white;
-    color: black;
-    font-family: "Montserrat", sans-serif;
-    border: 2px solid #DED7C2;
-    border-radius: 18px;
+    border-radius: 16px;
+    margin: 1rem 0;
+    gap: 6px;
     overflow: hidden;
+    box-shadow: inset 0 0 0 2px rgba(162, 150, 113, 1);
 }
 
-#sobre-nos img {
-    display: block;
-    width: 40%;
-    height: 100%;
-    min-width: 35px;
+#sobre-nos .card-container img {
+    width: 100%;
     object-fit: cover;
-    flex-shrink: 0; 
 }
 
 #sobre-nos .card-content {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    gap: 0.75rem;
-    flex: 1; 
-    padding: 16px;
+    padding: 0.5rem 0.25rem;
 }
 
-#sobre-nos h3 {
-    margin-bottom: 0.5rem;
+#sobre-nos .card-content span {
+    font-size: 0.8rem;
+}
+
+#sobre-nos #logo {
+    width: 12rem;
+    height: auto;
+}
+
+#sobre-nos h2 {
+    margin: 20px 0;
+    font-family: 'Montserrat';
+    font-style: normal;
     font-weight: 500;
-    font-size: 0.85rem;
+    font-size: 1.5rem;
+    line-height: 28px;
+    text-align: center;
     letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #DED7C2;
+}
+
+#sobre-nos p {
+    margin: 20px 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 22px;
+    text-align: justify;
+    color: #DED7C2;
+}
+
+#sobre-nos h4 {
+    font-size: 0.85rem;
+    letter-spacing: 3px;
     text-transform: uppercase;
 }
 
-#sobre-nos span {
-    margin-bottom: 0.75rem;
-    font-weight: normal;
-    font-size: 0.75rem;
-    padding: 0;
-    line-height: 1.4;
-}
-
-#sobre-nos a {
-    margin-bottom: 0;
+#sobre-nos h5 {
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 0.75rem;
-    text-decoration-line: none;
-    cursor: pointer;
+    letter-spacing: 3px;
+    text-transform: uppercase;
 }
