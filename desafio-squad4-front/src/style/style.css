@@ -5,9 +5,6 @@
     line-height: 1.5;
     font-weight: 400;
 
-    color: white;
-    background-color: white;
-
     font-synthesis: none;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
@@ -59,11 +56,12 @@ body {
 }
 
 .container {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding: 100px 150px 30px;
-    align-items: flex-start;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 100px 150px 30px;
+  align-items: flex-start;
+  color: white;
 }
 
 #reserva-btn-2 {
@@ -78,7 +76,6 @@ body {
 
 #reserva-btn-2:hover {
     background-color: #e0d4b3;
-    /* cor ao passar o mouse */
 }
 
 #nome-chef {
@@ -118,8 +115,20 @@ body {
     height: 6px;
     background-color: white;
 }
+.svg-title2 {
+  display: block;
+  text-align: left;
+  font-size: 38px;
+}
+
+.svg-title-bar2 {
+  width: 72px;
+  height: 6px;
+  background-color: #643705;
+}
 
 .svg-subtitle {
+
     margin-top: 10px;
     color: white;
     font-size: 12px;

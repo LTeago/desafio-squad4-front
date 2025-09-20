@@ -58,8 +58,13 @@
 }
 
 .dropdown-menu a {
+    text-decoration: none;
     font-size: 1.25rem;
     cursor: pointer;
+}
+
+.dropdown-menu a:visited {
+    color: rgba(222, 215, 194, 1);
 }
 
 .dropdown-menu button {

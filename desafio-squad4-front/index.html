@@ -9,6 +9,7 @@
 </head>
 
 <body>
+
   <div class="modal-backdrop" id="modal-backdrop"></div>
 
   <div id="dropdown-container">
@@ -27,7 +28,7 @@
       <a id="menu-executivo-btn">Menu Executivo</a>
       <a id="contratar-btn">Contratar Agora</a>
       <a id="sobre-nos-btn">Sobre Nós</a>
-      <a id="cardapio-btn">Cardápio</a>
+      <a id="cardapio-btn" href="src/cardapio.html">Cardápio</a>
       <a id="servicos-btn">Serviços</a>
     </div>
   </div>
@@ -117,16 +118,16 @@
       <button id="dropdown-toggle-btn">
         <img src="public/navbar_toggle.svg">
       </button>
-      <img id="logo" src="/logo.svg">
+      <img id="logo" src="/logo.svg" onclick="window.location.href='../index.html'">
       <div id="navbar-btn-container">
         <button class="navbar-btn">Home</button>
-        <button class="navbar-btn">Cardápio</button>
+        <button class="navbar-btn" onclick="window.location.href='cardapio.html'">Cardápio</button>
         <button class="navbar-btn">Sobre nós</button>
       </div>
       <button id="reserva-btn">RESERVAR AGORA</button>
     </div>
   </div>
-  <!-- 
+ 
   <div class="section">
     <div class="container">
       <h3 id="nome-chef">Chef. Benjamin Matos</h3>
@@ -392,7 +393,7 @@
         <span>EJECT © Alguns Direitos Reservados</span>
       </div>
     </div>
-  </footer>  -->
+  </footer>  
 
   <script type="module" src="src/script/main.js"></script>
   <script type="module" src="src/script/modal.js"></script>
