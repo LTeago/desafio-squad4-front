@@ -4,6 +4,7 @@ import "../style/dropdown.css";
 import "../style/modal.css";
 import "../style/modal-menu-executivo.css";
 import "../style/modal-servicos.css";
+import "../style/modal-sobre-nos.css";
 import "../style/carrossel.css";
 import "../style/grid.css";
 import "../style/section.css";

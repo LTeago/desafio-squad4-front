@@ -10,7 +10,11 @@ const menuExecutivoBtn = document.getElementById('menu-executivo-btn');
 const menuExecutivoCloseBtn = document.getElementById('menu-executivo-close-btn');
 
 const contratarAgoraBtn = document.getElementById('contratar-agora-btn');
+
+const sobreNosModal = document.getElementById('sobre-nos');
 const sobreNosBtn = document.getElementById('sobre-nos-btn');
+const sobreNosCloseBtn = document.getElementById('sobre-nos-close-btn');
+
 const cardapioBtn = document.getElementById('cardapio-btn');
 
 const servicosModal = document.getElementById('servicos');
@@ -35,7 +39,7 @@ menuExecutivoBtn.addEventListener('click', () => {
     toggleElement(menuExecutivoModal);
 })
 
-menuExecutivoCloseBtn.addEventListener('click', (e) => {
+menuExecutivoCloseBtn.addEventListener('click', () => {
     e.stopPropagation();
     toggleElement(menuExecutivoModal);
 })
@@ -44,6 +48,14 @@ servicosBtn.addEventListener('click', () => {
     toggleElement(servicosModal);
 })
 
-servicosCloseBtn.addEventListener('click', (e) => {
+servicosCloseBtn.addEventListener('click', () => {
     toggleElement(servicosModal);
+})
+
+sobreNosBtn.addEventListener('click', () => {
+    toggleElement(sobreNosModal);
+})
+
+sobreNosCloseBtn.addEventListener('click', () => {
+    toggleElement(sobreNosModal);
 })
