@@ -12,7 +12,10 @@ const menuExecutivoCloseBtn = document.getElementById('menu-executivo-close-btn'
 const contratarAgoraBtn = document.getElementById('contratar-agora-btn');
 const sobreNosBtn = document.getElementById('sobre-nos-btn');
 const cardapioBtn = document.getElementById('cardapio-btn');
+
+const servicosModal = document.getElementById('servicos');
 const servicosBtn = document.getElementById('servicos-btn');
+const servicosCloseBtn = document.getElementById('servicos-close-btn');
 
 function toggleElement(element) {
     element.classList.toggle('on');
@@ -35,4 +38,12 @@ menuExecutivoBtn.addEventListener('click', () => {
 menuExecutivoCloseBtn.addEventListener('click', (e) => {
     e.stopPropagation();
     toggleElement(menuExecutivoModal);
+})
+
+servicosBtn.addEventListener('click', () => {
+    toggleElement(servicosModal);
+})
+
+servicosCloseBtn.addEventListener('click', (e) => {
+    toggleElement(servicosModal);
 })
