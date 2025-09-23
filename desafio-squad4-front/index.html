@@ -6,14 +6,14 @@
   <link rel="icon" type="image/svg+xml" href="/logo.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Lobo Cozinha</title>
-  
+
   <link rel="stylesheet" href="src/style/style.css">
   <link rel="stylesheet" href="src/style/navbar.css">
   <link rel="stylesheet" href="src/style/dropdown.css">
   <link rel="stylesheet" href="src/style/modal.css">
   <link rel="stylesheet" href="src/style/modal-menu-executivo.css">
   <link rel="stylesheet" href="src/style/modal-servicos.css">
-  <link rel="stylesheet" href="src/style/modal-sobre-nos.css">
+  <link rel="stylesheet" href="src/style/sobre-nos.css">
   <link rel="stylesheet" href="src/style/carrossel.css">
   <link rel="stylesheet" href="src/style/grid.css">
   <link rel="stylesheet" href="src/style/section.css">
@@ -39,9 +39,9 @@
       </button>
     </div>
     <div class="dropdown-menu">
-      <a id="menu-executivo-btn " href="index.html">Menu Executivo</a>
+      <a id="menu-executivo-btn">Menu Executivo</a>
       <a id="contratar-btn">Contratar Agora</a>
-      <a id="sobre-nos-btn">Sobre Nós</a>
+      <a id="sobre-nos-btn" href="src/sobre-nos.html">Sobre Nós</a>
       <a id="cardapio-btn" href="src/cardapio.html">Cardápio</a>
       <a id="servicos-btn">Serviços</a>
     </div>
@@ -127,13 +127,13 @@
     </div>
   </div>
 
-  <div class="modal " id="sobre-nos">
+  <div class="modal" id="sobre-nos">
     <div class="modal-container">
       <button class="modal-close-btn" id="sobre-nos-close-btn">
         <img src="public/voltar.svg">
       </button>
       <div class="header-container">
-        <img id="logo" src="public/logo_dropdown.svg" onclick="window.location.href='../index.html'">
+        <img id="logo" src="public/logo_dropdown.svg" onclick="window.location.href='index.html'">
       </div>
     </div>
     <div class="content-container">
@@ -141,14 +141,14 @@
       <h2>QUEM SOMOS NÓS?</h2>
       <img src="public/restaurante.svg">
       <p>
-        Nosso restaurante une sofisticação e sabor em cada detalhe. Inspirados pela alta gastronomia, 
-        criamos pratos que combinam ingredientes frescos, técnicas refinadas e apresentação impecável. 
-        Mais do que uma refeição, oferecemos uma experiência única, onde tradição e inovação se encontram 
+        Nosso restaurante une sofisticação e sabor em cada detalhe. Inspirados pela alta gastronomia,
+        criamos pratos que combinam ingredientes frescos, técnicas refinadas e apresentação impecável.
+        Mais do que uma refeição, oferecemos uma experiência única, onde tradição e inovação se encontram
         para encantar cada momento à mesa.
       </p>
       <div class="menu-bar modal-bar-inline"></div>
       <h2>NOSSA EQUIPE</h2>
-      
+
       <div class="card-container">
         <img src="public/benjamin_matos.svg">
         <div class="card-content">
@@ -156,9 +156,9 @@
           <div class="menu-bar card-bar"></div>
           <h5>BENJAMIN MATOS</h5>
           <span>
-            Italiano de nascimento, Lorenzo traz em sua bagagem mais de 
-            20 anos de experiência em restaurantes estrelados Michelin. 
-            Sua cozinha combina tradição mediterrânea com inovação 
+            Italiano de nascimento, Lorenzo traz em sua bagagem mais de
+            20 anos de experiência em restaurantes estrelados Michelin.
+            Sua cozinha combina tradição mediterrânea com inovação
             contemporânea.
           </span>
         </div>
@@ -171,8 +171,8 @@
           <div class="menu-bar card-bar"></div>
           <h5>Isabella Duarte</h5>
           <span>
-            Especialista em confeitaria francesa, Isabella é responsável 
-            por nossas sobremesas autorais, unindo técnica refinada e um 
+            Especialista em confeitaria francesa, Isabella é responsável
+            por nossas sobremesas autorais, unindo técnica refinada e um
             toque criativo que transforma cada final de refeição em poesia.
           </span>
         </div>
@@ -185,8 +185,8 @@
           <div class="menu-bar card-bar"></div>
           <h5>Rafael Monteiro</h5>
           <span>
-            Apaixonado por vinhos, Rafael seleciona rótulos exclusivos 
-            e harmonizações perfeitas para realçar cada prato do nosso 
+            Apaixonado por vinhos, Rafael seleciona rótulos exclusivos
+            e harmonizações perfeitas para realçar cada prato do nosso
             cardápio.
           </span>
         </div>
@@ -202,14 +202,14 @@
       </button>
       <img id="logo" src="public/logo.svg" onclick="window.location.href='index.html'">
       <div id="navbar-btn-container">
-        <button class="navbar-btn" onclick="window.location.href='index.html'">Home</button>
+        <button class="navbar-btn">Home</button>
         <button class="navbar-btn" onclick="window.location.href='src/cardapio.html'">Cardápio</button>
-          <button class="navbar-btn" onclick="window.location.href='src/sobre-nos.html'">Sobre Nós</button>
+        <button class="navbar-btn" onclick="window.location.href='src/sobre-nos.html'">Sobre nós</button>
       </div>
       <button id="reserva-btn">RESERVAR AGORA</button>
     </div>
   </div>
-   
+
   <div class="section">
     <div class="container">
       <h3 id="nome-chef">Chef. Benjamin Matos</h3>
@@ -475,9 +475,8 @@
         <span>EJECT © Alguns Direitos Reservados</span>
       </div>
     </div>
-  </footer>  
+  </footer>
 
-  <script type="module" src="src/script/main.js"></script>
   <script type="module" src="src/script/modal.js"></script>
   <script type="module" src="src/script/dropdown.js"></script>
   <script type="module" src="src/script/carrossel.js"></script>
