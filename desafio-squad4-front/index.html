@@ -21,7 +21,10 @@
   <link rel="stylesheet" href="src/style/display.css">
   <link rel="stylesheet" href="src/style/servicos.css">
   <link rel="stylesheet" href="src/style/footer.css">
+  <link rel="stylesheet" href="src/style/modal-reservas.css">
+
 </head>
+
 
 <body>
   <div class="modal-backdrop" id="modal-backdrop"></div>
@@ -476,6 +479,29 @@
       </div>
     </div>
   </footer>
+
+<div id="reserva-modal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2>Reservar uma mesa</h2>
+    <form>
+      <div class="formrow">
+        <input type="text" placeholder="Nome completo" required>
+        <input type="tel" placeholder="Telefone" required>
+      </div>
+      <div class="formrow">
+        <input type="date" required>
+        <input type="time" required>
+      </div>
+      <div class="formrow">
+        <input type="number" placeholder="Número de Assentos" min="1" required>
+      </div>
+      <textarea placeholder="Observações (opcional)"></textarea>
+      <button type="submit" id="submit">Reservar</button>
+    </form>
+  </div>
+</div>
+
 
   <script type="module" src="src/script/modal.js"></script>
   <script type="module" src="src/script/dropdown.js"></script>
