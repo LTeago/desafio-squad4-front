@@ -1,6 +1,6 @@
 # desafio-squad4-front
 
-Projeto feito como desafio para o processo seletivo da Empresa Júnior da Escola de Ciências e Tecnologia da UFRN (EJECT). Projeto se trata do front-end de um site [...] desenvolvido pelos membros do squad 4 de aspirantes da EJECT.
+Projeto feito como desafio para o processo seletivo da Empresa Júnior da Escola de Ciências e Tecnologia da UFRN (EJECT). Projeto se trata do front-end de um site do Chef. Benjamin Matos, o qual solicitou um site que contivesse um cardápio, pudesse reservar mesas e acima de tudo apresentar seu trabalho. O site foi desenvolvido pelos membros do squad 4 de aspirantes da EJECT.
 
 
 
